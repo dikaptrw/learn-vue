@@ -20,7 +20,7 @@ class SubjectSeeder extends Seeder
             Subject::create([
                 'name' => $s,
                 'slug' => Str::slug($s)
-            ])
+            ]);
         });
     }
 }
